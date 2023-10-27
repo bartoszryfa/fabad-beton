@@ -16,16 +16,20 @@ body
     background-color:#c92828;
  
 }
+
 #box
 {
     background-color:rgb(46,46,46);
     margin-top:-22px;
     height:850px;
 }
+
 .clear
 {
     clear:both;
 }
+
+/* menu --------------------------------*/
 
 #sticky
 {
@@ -130,12 +134,12 @@ h1
 }
 h2
 {
-   position:relative;
-   top:220px;
-  text-align:center;
-  color:#fff;
-  font-weight:400;
-  font-size:20px;
+    position:relative;
+    top:220px;
+    text-align:center;
+    color:#fff;
+    font-weight:400;
+    font-size:20px;
 }
 
 #copyright
@@ -153,24 +157,29 @@ h2
 
 
 
-/*---------------------------------------------media only screen-------------------------------------------------*/
+/*--------------------------------------------- mobile -------------------------------------------------*/
 
 @media only screen and (max-width: 500px) {
-    body
-    {
-        width:500px;
-        margin:0px;
-    }
+    
+body
+{
+    width:500px;
+    margin:0px;
+}
+
 #container
 {
     width:500px;
-   height:900px;
+    height:900px;
 }
+
 #box
 {
     margin-top:-60px;
     height:1800px;
 }
+
+/* menu --------------------------------*/
 
 #logo
 {

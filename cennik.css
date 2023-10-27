@@ -26,6 +26,8 @@ body
     clear:both;
 }
 
+/* menu --------------------------------*/
+
 #sticky
 {
     position:sticky;
@@ -119,6 +121,9 @@ a:visited
 {
     color:gray;
 }
+
+/* table --------------------------------*/
+
 table
 {
   font-family: arial, sans-serif;
@@ -177,14 +182,14 @@ tr:nth-child(even) {
 
 
 
-/*---------------------------------------------media only screen-------------------------------------------------*/
+/*--------------------------------------------- mobile -------------------------------------------------*/
 
 @media only screen and (max-width: 500px) {
-    body
-    {
-        width:500px;
-        margin:0px;
-    }
+body
+{
+    width:500px;
+    margin:0px;
+}
 #container
 {
     width:500px;
@@ -195,6 +200,8 @@ tr:nth-child(even) {
     margin-top:-40px;
     height:1800px;
 }
+
+/* menu --------------------------------*/
 
 #logo
 {
@@ -233,6 +240,7 @@ tr:nth-child(even) {
    opacity:1;
    
 }
+
 #menu
 {
     position:absolute;
@@ -248,10 +256,12 @@ tr:nth-child(even) {
     transition: .3s ease-in-out;
     
 }
+
 #menu.active
 {
    display:block;
 }
+
 button
 {
     display:block;
@@ -263,6 +273,7 @@ button
     outline:none;
     cursor:pointer;
 }
+
 .line {
   width:30px;
   height:3px;
@@ -272,19 +283,21 @@ button
   transition: .3s ease-in-out;
  }
 
+/* burger menu --------------------------------*/
+
 .burger.active .line:first-child
 {
     transform:translateY(-300px)
 }
 .burger.active .line:nth-child(2)
-    {
-        transform: rotate(-403deg) translateY(6px) translateX(-0.1px);
-    }
+{
+    transform: rotate(-403deg) translateY(6px) translateX(-0.1px);
+}
 
-    .burger.active .line:nth-child(3)
-    {
-        transform: rotate(-320deg) translateY(-4.6px);
-    }
+.burger.active .line:nth-child(3)
+{
+    transform: rotate(-320deg) translateY(-4.6px);
+}
 #box.active
 {
     transform:translateX(500px);
@@ -306,6 +319,8 @@ li a:hover
 {
    underline:none;
 }
+
+/* table --------------------------------*/
 
 .tab
 {

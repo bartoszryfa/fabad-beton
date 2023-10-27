@@ -20,6 +20,8 @@ body
 {
     clear:both;
 }
+/* menu --------------------------------*/
+
 #sticky
 {
     position:sticky;
@@ -164,6 +166,8 @@ h3
     font-size: 32px;
     text-align:center;
 }
+/* form --------------------------------*/
+
 #contact
 {
     font-size: 18px;
@@ -256,6 +260,7 @@ h3
     opacity:0.8;
 }
     
+/* inputs --------------------------------*/
 
 input[type=text],
 input[type=email]
@@ -331,6 +336,9 @@ input:focus::-webkit-input-placeholder {
 textarea:focus::-webkit-input-placeholder {
     opacity: 0;
 }
+
+/* map --------------------------------*/
+
 #mapa
 {
     margin-top:455px;
@@ -385,7 +393,7 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 
-/*---------------------------------------------media only screen-------------------------------------------------*/
+/*--------------------------------------------- Mobile ---------------------------------------------*/
 
 @media only screen and (max-width: 500px) {
     body
@@ -399,6 +407,7 @@ textarea:focus::-webkit-input-placeholder {
    height:1730px;
 }
 
+/* menu --------------------------------*/
 
 #logo
 {
@@ -477,6 +486,8 @@ button
   transition: .3s ease-in-out;
  }
 
+/* burger menu --------------------------------*/
+
 .burger.active .line:first-child
 {
     transform:translateY(-300px)
@@ -498,6 +509,8 @@ button
 {
     height:900px;
 }
+
+/* links --------------------------------*/
 
 a:link
 {
@@ -546,6 +559,8 @@ li a:hover
      font-size: 32px;
      text-align:center;
  }
+ 
+ /* form --------------------------------*/
  
  #formularz1
  {
@@ -612,7 +627,8 @@ li a:hover
 
  }
  
-
+ /* inputs --------------------------------*/
+ 
  input[type=text],
  input[type=email]
  {
@@ -679,6 +695,9 @@ li a:hover
  textarea:focus::-webkit-input-placeholder {
      opacity: 0;
  }
+ 
+ /* map --------------------------------*/
+ 
  #mapa
  {
      margin-top:455px;
@@ -706,6 +725,9 @@ li a:hover
      border-radius:10px;
      
  }
+ 
+ /* bottom baner --------------------------------*/
+ 
  #baner
  {
      margin-top:320px;
