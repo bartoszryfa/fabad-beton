@@ -5,8 +5,8 @@
     $mess =$_POST['mess'];
 
 
-    /* sending */ 
-    /* TWOJ EMAIL */
+    /* sending */
+
     $to = 'kontakt.fabadbeton@gmail.com';
     $subject = 'Wiadomość';
     $headers = "From: ".$name." <".$email."> \r\n";
